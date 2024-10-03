@@ -1,0 +1,36 @@
+id: aweber-takeover
+
+info:
+  name: aweber Takeover Detection
+  author: sadikul-islam
+  severity: high
+  description: aweber takeover was detected.
+  reference:
+    - https://github.com/0xadik/Subdomain-Take0ver/tree/main/aweber
+  metadata:
+    max-request: 1
+  tags: takeover
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    matchers-condition: and
+    matchers:
+      - type: dsl
+        dsl:
+          - Host != ip
+
+      - type: word
+        words:
+          - "It looks like this page isn’t active yet. "
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"hosted-content.aweber.com")'
+
+    extractors:
+      - type: dsl
+        dsl:
+          - cname

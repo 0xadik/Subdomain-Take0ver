@@ -7,7 +7,12 @@ AWeber is an email marketing and automation platform designed to help businesses
 Here's dig or lookup to query the CNAME record of `subdomain.domain.ltd`. If the CNAME resolves to `hosted-content.aweber.com`, immediately trigger the next steps in the attack sequence to exploit the identified vulnerability.
 
 ## Exploitation
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/0xadik/Subdomain-Take0ver/refs/heads/main/aweber/screenshot/sub1.PNG" border="10"/>
+<img src="https://raw.githubusercontent.com/0xadik/Subdomain-Take0ver/refs/heads/main/aweber/screenshot/sub2.PNG" border="10"/>
+<img src="https://raw.githubusercontent.com/0xadik/Subdomain-Take0ver/refs/heads/main/aweber/screenshot/sub3.PNG" border="10"/>
+<img src="https://raw.githubusercontent.com/0xadik/Subdomain-Take0ver/refs/heads/main/aweber/screenshot/sub4.PNG" border="10"/>
+</p>
 
 
   

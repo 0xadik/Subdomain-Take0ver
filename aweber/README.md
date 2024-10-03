@@ -19,8 +19,7 @@ Here's dig or lookup to query the CNAME record of `subdomain.domain.ltd`. If the
 ## Proof Of Concept
 | No | URL | CNAME | Vulnerable |
 |--|---|---|---|
-| 1 | https://cadeau.desuccesmentor.nl | `hosted-content.aweber.com` | Yes | 
-| 2 | https://lol.bugpoc.xyz | `hosted-content.aweber.com` | Yes | 
+| 1 | https://lol.bugpoc.xyz | `hosted-content.aweber.com` | Yes | 
 
 
 ## Disclaimer 
